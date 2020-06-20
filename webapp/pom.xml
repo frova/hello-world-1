@@ -16,14 +16,15 @@
   <description>Webapp.</description>
 
   <build>
+    <defaultGoal>clean install</defaultGoal>
     <finalName>${project.artifactId}</finalName>
     <plugins>
       <plugin>
         <groupId>org.mortbay.jetty</groupId>
         <artifactId>jetty-maven-plugin</artifactId>
-        <defaultGoal>clean install</defaultGoal>       
       </plugin>
     </plugins>
+    
   </build>
 
   <dependencies>
